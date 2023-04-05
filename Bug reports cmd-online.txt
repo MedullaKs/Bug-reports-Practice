@@ -1,0 +1,48 @@
+﻿Bug reports for website https://www.cmd-online.ru/
+
+
+
+
+Bug report #1
+
+
+Title: In the analysis catalog, the "Add to Cart" button works incorrectly
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Go to https://www.cmd-online.ru/analizy-i-tseny/katalog-analizov/rnk_sars-cov-2_covid-19_kachestvennoje_opredelenije_rezhim_srochno/
+2. Click the button “Add to cart”
+Expected result: The user can add analysis to the cart
+Actual result: The user is redirected to the "COVID-19 test" page, analysis is not added to the cart
+Severity: Critical
+Priority: High
+
+
+
+
+Bug report #2
+
+
+Title: In the "Corporate Clients" section, the "arrow" buttons on the slider blend in with the color of the background
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Go to https://old.cmd-online.ru/korporativnym-klientam/sushchestvuyushchim-klientam/
+2. Click the "right arrow" button on the slider four times
+Expected result: On the last slide, the "arrow" buttons are clearly visible
+Actual result: On the last slide, the "arrow" buttons blend in with the color of the background
+Severity: Trivial
+Priority: Low
+Attachments:
+
+
+
+
+
+
+
+
+Slide with arrows blending in with background:
+  
+
+Slide with clearly visible arrows:

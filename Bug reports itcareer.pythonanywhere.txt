@@ -1,0 +1,189 @@
+﻿Bug reports for website http://itcareer.pythonanywhere.com/
+
+
+
+
+Bug report #1
+
+
+Title: Incorrect validation message at the bottom of the registration form after filling all fields with valid type of data and valid number of symbols
+Precondition: - 
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Open the website http://itcareer.pythonanywhere.com/
+2. Enter “El” into Name field
+3. Fill other fields with valid type of data for these fields
+4. Click the button “Submit”
+Expected result: At the bottom of the registration form a validation message: "Success! Hello: El" appears
+Actual result: At the bottom of the registration form a validation message “Error: All Fields are Required” appears
+Severity: Blocker
+Priority: High
+
+
+
+
+Bug report #2
+
+
+Title: Incorrect validation message at the bottom of the registration form after filling all fields with valid type of data and valid number of symbols
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Open the website http://itcareer.pythonanywhere.com/
+2. Enter “Ell” into Name field
+3. Fill other fields with valid type of data for these fields
+4. Click the button “Submit”
+Expected result: At the bottom of the registration form a validation message: "Success! Hello: Ell" appears
+Actual result: At the bottom of the registration form a validation message “Error: All Fields are Required” appears
+Severity: Blocker
+Priority: High
+
+
+
+
+Bug report #3
+
+
+Title: Incorrect validation message at the bottom of the registration form after filling all fields with valid type of data and valid number of symbols
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Open the website http://itcareer.pythonanywhere.com/
+2. Enter 255 Latin letters into Name field (max. allowed number of letters for this field)
+3. Fill other fields with valid type of data for these fields
+4. Click the button “Submit”
+Expected result: At the bottom of the registration form a validation message: "Success! Hello: “Name”" appears
+Actual result: At the bottom of the registration form a validation message “Error: All Fields are Required” appears
+Severity: Blocker
+Priority: Medium
+
+
+
+
+Bug report #4
+
+
+Title: Incorrect validation message at the bottom of the registration form after filling all fields with valid type of data and valid number of symbols
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Open the website http://itcareer.pythonanywhere.com/
+2. Enter 250 Latin letters into Name field (5 letters less than max. allowed for this field)
+3. Fill other fields with valid type of data for these fields
+4. Click the button “Submit”
+Expected result: At the bottom of the registration form a validation message: "Success! Hello: “Name”" appears
+Actual result: At the bottom of the registration form a validation message “Error: All Fields are Required” appears
+Severity: Blocker
+Priority: Medium
+
+
+
+
+Bug report #5
+
+
+Title: Incorrect validation message at the bottom of the registration form after filling all fields with invalid type of data
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Open the website http://itcareer.pythonanywhere.com/
+2. Enter Cyrillic value into Name field
+3. Fill other fields with valid type of data for these fields
+4. Click the button “Submit”
+Expected result: At the bottom of the registration form appears validation message “Error: All Fields are Required”
+Actual result: At the bottom of the registration form a validation message: "Success! Hello: “Name”" appears
+Severity: Critical
+Priority: Medium
+
+
+
+
+Bug report #6
+
+
+Title: Incorrect validation message at the bottom of the registration form after filling all fields with invalid type of data
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Open the website http://itcareer.pythonanywhere.com/
+2. Fill a Name field with a space before entered symbols 
+3. Fill other fields with valid type of data for these fields
+4. Click the button “Submit”
+Expected result: At the bottom of the registration form appears validation message “Error: All Fields are Required”
+Actual result: At the bottom of the registration form a validation message: "Success! Hello: “Name”" appears
+Severity: Major
+Priority: Medium
+
+
+
+
+Bug report #7
+
+
+Title: Incorrect validation message at the bottom of the registration form after filling all fields with invalid type of data
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Open the website http://itcareer.pythonanywhere.com/
+2. Fill a Name field with a space after entered symbols 
+3. Fill other fields with valid type of data for these fields
+4. Click the button “Submit”
+Expected result: At the bottom of the registration form appears validation message “Error: All Fields are Required”
+Actual result: At the bottom of the registration form a validation message: "Success! Hello: “Name”" appears
+Severity: Major
+Priority: Medium
+
+
+
+
+Bug report #8
+
+
+Title: Incorrect validation message at the bottom of the registration form after filling all fields with invalid type of data
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Open the website http://itcareer.pythonanywhere.com/
+2. Fill a Name field with brackets
+3. Fill other fields with valid type of data for these fields
+4. Click the button “Submit”
+Expected result: At the bottom of the registration form appears validation message “Error: All Fields are Required”
+Actual result: At the bottom of the registration form a validation message: "Success! Hello: “Name”" appears
+Severity: Major
+Priority: Medium
+
+
+
+
+Bug report #9
+
+
+Title: Incorrect validation message at the bottom of the registration form after filling all fields with invalid type of data
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Open the website http://itcareer.pythonanywhere.com/
+2. Fill a Name field with a <tag> after entered symbols
+3. Fill other fields with valid type of data for these fields
+4. Click the button “Submit”
+Expected result: At the bottom of the registration form appears validation message “Error: All Fields are Required”
+Actual result: At the bottom of the registration form a validation message: "Success! Hello: “Name”" appears
+Severity: Major
+Priority: Medium
+
+
+Bug report #10
+
+
+Title: Incorrect validation message at the bottom of the registration form after filling all fields with invalid type of data
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Open the website http://itcareer.pythonanywhere.com/
+2. Fill a Email field with incorrect value (without @)
+3. Fill other fields with valid type of data for these fields
+4. Click the button “Submit”
+Expected result: At the bottom of the registration form appears validation message “Error: All Fields are Required”
+Actual result: At the bottom of the registration form a validation message: "Success! Hello: “Name”" appears
+Severity: Critical
+Priority: Medium

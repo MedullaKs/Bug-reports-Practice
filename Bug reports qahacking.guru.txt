@@ -1,0 +1,204 @@
+﻿Bug reports for website https://qahacking.guru/
+
+
+
+
+Bug report #1
+
+
+Title: 404 error when clicking on Twitter link in the footer of the homepage
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Open the website https://qahacking.guru/
+2. Scroll to the footer of the homepage
+3. Click on the Twitter icon in the right corner of the footer
+Expected result: The user is redirected to Twitter account of a kennel
+Actual result: The user is redirected to Twitter page with 404 error “Hmm...this page doesn’t exist. Try searching for something else.”
+Severity: Minor
+Priority: Medium
+Attachments:
+
+
+  
+
+
+
+
+
+
+
+
+
+Bug report #2
+
+
+Title: The link “Tips” in the header of the mainpage is not working
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Open the website https://qahacking.guru/
+2. Click on the link “Tips” in the header of the homepage
+Expected result: The user is redirected to the page of tips for caring dogs
+Actual result: The user stays at the homepage 
+Severity: Critical
+Priority: High
+
+
+
+
+Bug report #3
+
+
+Title: The article “Lifehack - how to get everything from life!” on the homepage doesn't have a link to open it
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Open the website https://qahacking.guru/
+2. Hover the mouse cursor over the article “Lifehack - how to get everything from life!”
+3. Click on the label of the article name
+Expected result: The user is redirected to the article page
+Actual result: The article seems not having a link to click on
+Severity: Major
+Priority: Medium
+
+
+
+
+Bug report #4
+
+
+Title: The "Popular" block with text on Jessy Blog page rotates when scrolling the page, making it inconvenient to read
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Open the website https://qahacking.guru/
+2. Go to Jessy Blog (the link below homepage header)
+3. Scroll Jessy Blog page down
+Expected result: The “Popular” block with text is stative, when scrolling the page
+Actual result: The "Popular" block with text rotates when scrolling the page
+Severity: Manor
+Priority: Medium
+Attachments: 
+
+
+
+
+  
+
+
+
+
+
+
+
+Bug report #5
+
+
+Title: Incorrect language of links for opening articles on Jessy Blog page
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Open the website https://qahacking.guru/
+2. Go to Jessy Blog (the link below homepage header)
+Expected result: The website is in russian language, including all the links for opening articles
+Actual result: Links for opening articles are in english instead of russian
+Severity: Manor
+Priority: Medium
+Attachments:   
+
+
+
+
+Bug report #6
+
+
+Title: Mobile phone link in the footer of a homepage redirects to send an email in mobile version of a site
+Precondition: -
+Environment: Mobile, Redmi Note 9 Pro, Android 11, Google Chrome
+Steps:
+1. Open the website https://qahacking.guru/
+2. Scroll to the footer of the homepage
+3. Click on the mobile phone link in the left corner of the footer
+Expected result: The user is redirected to call or to add this phone number to his contacts
+Actual result: The user is redirected to default email mailbox to write an email 
+Severity: Critical
+Priority: High
+
+
+
+
+Bug report #7
+
+
+Title: Form for booking a pet on page “About us”: in the phone number input field, although 12 digits are allowed, only 10 digits can be entered
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Open the website https://qahacking.guru/
+2. Go to page “About us”
+3. Enter 12 digits into phone number field in the form for booking a pet
+Expected result: 12 digits are entered in the phone number input field as it is allowed
+Actual result: Only 10 digits can be entered in the phone number input field in the form for booking a pet
+Severity: Critical
+Priority: High
+
+
+
+
+Bug report #8
+
+
+Title: The label on the "Send" button in the question submission form in the footer of a homepage cannot be read until hovering mouse cursor over it
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Open the website https://qahacking.guru/
+2. Scroll to the footer of the homepage
+3. Hover mouse cursor over the “Send” button in the question submission form
+Expected result: The label on the "Send" button in the question submission form can be read
+Actual result: The label on the "Send" button in the question submission form cannot be read until hovering mouse cursor over it
+Severity: Manor
+Priority: Medium
+Attachments:
+     
+
+
+
+
+
+
+
+
+Bug report #9
+
+
+Title: The dropdown menu for selecting the city is not working in the form for booking a pet on “About us” page
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Open the website https://qahacking.guru/
+2. Go to page “About us”
+3. Scroll down to the footer of the form for booking a pet
+4. Hover mouse cursor over the selector of the city
+Expected result: The user can choose the city in the dropdown menu
+Actual result: The dropdown menu for selecting the city is not working 
+Severity: Major
+Priority: Medium
+
+
+Bug report #10
+
+
+Title: Page makeup of the form for booking a pet on “About us” page does not correspond to requirements
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:
+1. Open the website https://qahacking.guru/
+2. Go to page “About us”
+3. Scroll down to the the form for booking a pet
+Expected result: Page makeup of the form for booking a pet corresponds to requirements 
+Actual result: Page makeup of the form for booking a pet does not correspond to requirements
+Severity: Major
+Priority: Medium
+Attachments:

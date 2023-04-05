@@ -1,0 +1,101 @@
+﻿Bug reports for website https://qatest-dev.indvp.com/
+
+
+Bug report #1
+
+
+Title: Error when clicking on the "View cart" button after adding an item to it while being on the catalog page
+Precondition: - 
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:    
+1. Open the website https://qatest-dev.indvp.com/
+2. Go to catalog Kitchen&Dining - Mugs&Cups
+3. Add first item into shopping cart
+4. Click on the icon “Cart” in the top right corner of a page
+5. Click on the button “View cart” in the pop-up mini window of the cart
+Expected result: The user is redirected to the page of a cart with added item
+Actual result: The user sees a message saying “Ooops! Something went wrong!” and the button “Back to homepage”
+Severity: Major
+Priority: Medium
+
+
+
+
+Bug report #2
+
+
+Title: 404 error when clicking on “Contact Us” in the footer of the homepage
+Precondition: -
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps:   
+1. Open the website https://qatest-dev.indvp.com/
+2. Scroll to the footer of the mainpage
+3. Click on the label “Contact Us”
+Expected result: The user is redirected to the page with shop contacts (exact expected result is unknown)
+Actual result: The user sees the error 404 “Page not found”
+Severity: Minor
+Priority: Medium
+Attachments:
+
+
+  
+
+
+
+
+
+Bug report #3
+
+
+Title: The item is added to the cart without a declared discount in the catalog
+Precondition: Create a client account on site with email kseniiamadridgmail.com and password ***
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps: 
+1. Open the website https://qatest-dev.indvp.com/
+2. Log in with email ****gmail.com and password ***
+3. Go to catalog Kitchen&Dining - Glassware
+4. Add first item into shopping cart with discount
+5. Click on the icon “Cart” in the top right corner of a page
+Expected result: The user sees pop-up mini window of a cart with last added item with actual discount
+Actual result: The last added item in the cart is shown without discount
+Severity: Minor
+Priority: High
+Attachments:
+
+
+  
+
+
+
+
+
+Bug report #4
+
+
+Title: Incorrect validation when filling in the "Login or email" field with a non-existent email in uppercase while signing in
+Precondition: Create a client account on site with email kseniiamadridgmail.com and password ***
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps: 
+1. Open the website https://qatest-dev.indvp.com/
+2. Log in with non-existent email in uppercase KSENIIAMADID@GMAIL.COM and  correct password ***
+Expected result: The user sees an error message
+Actual result: The user sees message “You are successfully logged in” and his personal profile
+Severity: Major
+Priority: High
+
+
+Bug report #5
+
+
+Title: After entering a search keyword in the search field, there is no redirection to the results page
+Precondition: - 
+Environment: PC; OS: Windows 10; Browser: Google Chrome version 111.0.5563.147
+Steps: 
+1. Open the website https://qatest-dev.indvp.com/
+2. Enter “Mug” into the search field in the top left corner of the homepage
+3. Press Enter
+Expected result: The user is redirected to the results page according to the keyword he entered in the search field
+Actual result: The user sees drop-down list of items with incomplete names and small icons
+Severity: Minor
+Priority: Medium
+Attachments:
